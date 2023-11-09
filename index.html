@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pic/logo.png" type="img">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Yummy</title>
+</head>
+
+<body class="bg-black position-relative ">
+    <div class=" d-flex pe-0 sidebar" id="sideBar">
+        <div class="d-flex flex-column justify-content-between bg-black text-white overflow-hidden" >
+            <div class="overflow-hidden" id="firsthild">
+                <div class="px-4 pt-4 d-flex flex-column overflow-hidden " id="buttons">
+               <p class="text-white anmition1 pointer" onclick="getSearch1()">Search</p>
+               <p class="text-white anmition2 pointer" onclick="getCategories()">Categories</p>
+               <p class="text-white anmition3 pointer" onclick="getArea()">Area</p>
+               <p class="text-white anmition4 pointer" onclick="getIngredient()">Ingredients</p>
+               <p class="text-white anmition5 pointer" onclick="contact()">Contact us</p>
+                 </div>
+            </div>
+            
+        <div class="px-4 ">
+            <ul class="list-unstyled d-flex gap-1">
+                <li><i class="fa-brands fa-facebook pointer"></i></li>
+                <li><i class="fa-brands fa-twitter pointer"></i></li>
+                <li><i class="fa-solid fa-globe pointer"></i></li>
+            </ul>
+            <p>Copyright Â© 2019 All Rights <br>
+                Reserved.</p>
+        </div>
+        </div>
+        
+        <div class="px-2  py-4 bg-white d-flex flex-column justify-content-between align-items-center">
+            <img src="./logo.png" width="50" alt="">
+            <i onclick="showSide()" class="fs-1 fa-solid fa-bars myicon" id="show"></i>
+            <i onclick="hideSide()" class="fs-1 fa-solid fa-xmark hidden myicon d-none" id="hide"></i>
+            <div class="d-flex flex-column justify-content-between align-items-center ">
+                <i class="fa-solid fa-globe pb-1 myicon"></i>
+                <i class="fa-solid fa-share-nodes myicon"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ms-5">       
+        <div class="">
+            <div class="container">
+                <div class="row my-3 pb-3 g-4 prod">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
